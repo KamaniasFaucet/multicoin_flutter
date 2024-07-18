@@ -39,11 +39,11 @@ You can also sign up for our open beta testing here:
 - will not mint
 
 ## Development
-**Build coinlib**  
+**Build multicoinlib**  
 This repository relies on 
-[coinlib.](https://github.com/peercoin/coinlib "https://github.com/peercoin/coinlib")  
+[coinlib.](https://github.com/KamaniasFaucet/multicoinlib "https://github.com/KamaniasFaucet/multicoinlib")  
 Please follow the build instructions for your OS here:
-[README](https://github.com/peercoin/coinlib/blob/master/coinlib/README.md)
+[README](https://github.com/KamaniasFaucet/multicoinlib/blob/master/multicoinlib/README.md)
 
 **Update icons**  
 `dart run flutter_launcher_icons:main`

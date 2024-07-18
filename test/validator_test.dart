@@ -1,11 +1,11 @@
-import 'package:coinlib_flutter/coinlib_flutter.dart';
+import 'package:multicoinlib_flutter/multicoinlib_flutter.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:peercoin/models/available_coins.dart';
 import 'package:peercoin/tools/validators.dart';
 
 void main() async {
-  //init coinlib
-  await loadCoinlib();
+  //init multicoinlib
+  await loadMultiCoinlib();
 
   group('validators', () {
     final network = AvailableCoins.getSpecificCoin('peercoin').networkType;

@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:coinlib_flutter/coinlib_flutter.dart';
+import 'package:multicoinlib_flutter/multicoinlib_flutter.dart';
 
 import 'coin.dart';
 

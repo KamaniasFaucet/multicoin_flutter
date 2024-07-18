@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:coinlib_flutter/coinlib_flutter.dart';
+import 'package:multicoinlib_flutter/multicoinlib_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:peercoin/providers/connection_provider.dart';
 import 'package:peercoin/screens/wallet/transaction_details.dart';

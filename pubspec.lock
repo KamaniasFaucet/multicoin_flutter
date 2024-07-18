@@ -233,22 +233,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.10.0"
-  coinlib:
+  multicoinlib:
     dependency: transitive
     description:
-      name: coinlib
-      sha256: "44aa3f7b07d3b03d58353e7657f43cdaf76a70ad2cce5bdac9306208099d8df5"
+      name: multicoinlib
+      sha256: "c23ed315a84c27c8881179948e7de72a69fa5f1406db5cfc8aa74c37acad1b79"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.0"
-  coinlib_flutter:
+    version: "0.0.1"
+  multicoinlib_flutter:
     dependency: "direct main"
     description:
-      name: coinlib_flutter
-      sha256: b352378773158dbaec37bd542c297682f3812f9881acb676971f0f4c5893631f
+      name: multicoinlib_flutter
+      sha256: 5ebe260c87c4edf5b25d0e812315fe750de8481e82215e87e2810b6e4c9d9ee4
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.0"
+    version: "0.0.1"
   collection:
     dependency: "direct main"
     description:
