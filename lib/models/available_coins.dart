@@ -18,10 +18,9 @@ class AvailableCoins {
       fractions: 6,
       minimumTxValue: 10000,
       fixedFee: true,
-      fixedFeePerKb: 0.01,
-      explorerUrl: 'https://blockbook.peercoin.net',
-      genesisHash:
-          '000000bc0ddf15573115c44b81d8b10e9ebd868b5c967f408bda273656f30e28',
+      fixedFeePerKb: 0.02,
+      explorerUrl: 'https://chainz.cryptoid.info/dem/',
+      genesisHash: '000000bc0ddf15573115c44b81d8b10e9ebd868b5c967f408bda273656f30e28',
       txVersion: 3,
       electrumRequiredProtocol: 1.4,
       electrumServers: [
