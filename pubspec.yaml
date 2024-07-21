@@ -73,8 +73,8 @@ dev_dependencies:
 flutter_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/icon/ppc-icon.png"
-  image_path_ios: "assets/icon/ppc-ios-app-xxl.png"
+  image_path: "assets/icon/dem-icon.png"
+  image_path_ios: "assets/icon/dem-ios-app-xxl.png"
   remove_alpha_ios: true
 
 flutter_launcher_name:
@@ -82,7 +82,7 @@ flutter_launcher_name:
 
 flutter_native_splash:
   color: "#FFFFFF"
-  image: assets/icon/ppc-icon-256.png
+  image: assets/icon/dem-icon-256.png
 
 flutter:
   uses-material-design: true

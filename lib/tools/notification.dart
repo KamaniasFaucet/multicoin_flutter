@@ -6,7 +6,7 @@ class LocalNotificationSettings {
 
   static const AndroidNotificationDetails androidPlatformChannelSpecifics =
       AndroidNotificationDetails(
-    'ppc',
+    'dem',
     'Deutsche eMark',
     channelDescription: 'Notification channel for Deutsche eMark app',
     importance: Importance.max,

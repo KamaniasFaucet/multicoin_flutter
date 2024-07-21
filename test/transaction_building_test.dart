@@ -60,7 +60,7 @@ void main() async {
     wallet.addWallet(
       name: walletName,
       title: walletName,
-      letterCode: 'PPC',
+      letterCode: 'DEM',
       isImportedSeed: false,
       watchOnly: false,
     );
