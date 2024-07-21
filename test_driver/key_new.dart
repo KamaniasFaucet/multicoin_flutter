@@ -101,8 +101,8 @@ void main() {
           await driver.runUnsynchronized(
             () async {
               await driver.tap(find.byValueKey('newWalletIconButton'));
-              await driver.tap(find.text('Peercoin Testnet'));
-              await driver.tap(find.text('Peercoin Testnet')); //tap into wallet
+              await driver.tap(find.text('Deutsche eMark Testnet'));
+              await driver.tap(find.text('Deutsche eMark Testnet')); //tap into wallet
               expect(await driver.getText(find.text('connected')), 'connected');
             },
           );
@@ -186,8 +186,8 @@ void main() {
           await driver.runUnsynchronized(
             () async {
               await driver.tap(find.byValueKey('newWalletIconButton'));
-              await driver.tap(find.text('Peercoin'));
-              await driver.tap(find.text('Peercoin')); //tap into wallet
+              await driver.tap(find.text('Deutsche eMark'));
+              await driver.tap(find.text('Deutsche eMark')); //tap into wallet
               expect(await driver.getText(find.text('connected')), 'connected');
             },
           );
@@ -210,9 +210,9 @@ void main() {
           await driver.tap(find.byValueKey('newWalletIconButton'));
           await driver.tap(find.text('Watch only'));
           await driver
-              .tap(find.text('Peercoin')); //create peercoin watch-only wallet
+              .tap(find.text('Deutsche eMark')); //create peercoin watch-only wallet
           await driver
-              .tap(find.text('Peercoin 2')); //tap into watch-only wallet
+              .tap(find.text('Deutsche eMark 2')); //tap into watch-only wallet
         });
 
         expect(await driver.getText(find.text('connected')), 'connected');
@@ -224,14 +224,14 @@ void main() {
             await driver.tap(find.text('Delete'));
           },
         );
-        //expect to not find "Peercoin 2"
+        //expect to not find "Deutsche eMark 2"
         await driver.runUnsynchronized(
           () async {
             try {
-              await driver.getText(find.text('Peercoin 2'));
-              fail('Expected to not find "Peercoin 2"');
+              await driver.getText(find.text('Deutsche eMark 2'));
+              fail('Expected to not find "Deutsche eMark 2"');
             } catch (e) {
-              // Expected not to find "Peercoin 2", so we swallow the exception
+              // Expected not to find "Deutsche eMark 2", so we swallow the exception
             }
           },
         );

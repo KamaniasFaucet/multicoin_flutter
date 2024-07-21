@@ -7,8 +7,8 @@ class LocalNotificationSettings {
   static const AndroidNotificationDetails androidPlatformChannelSpecifics =
       AndroidNotificationDetails(
     'ppc',
-    'Peercoin',
-    channelDescription: 'Notification channel for Peercoin app',
+    'Deutsche eMark',
+    channelDescription: 'Notification channel for Deutsche eMark app',
     importance: Importance.max,
     priority: Priority.high,
     showWhen: true,

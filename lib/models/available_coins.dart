@@ -8,9 +8,9 @@ class AvailableCoins {
   static final Map<String, Coin> _availableCoinList = {
     'peercoin': Coin(
       name: 'peercoin',
-      displayName: 'Peercoin',
+      displayName: 'Deutsche eMark',
       uriCode: 'peercoin',
-      letterCode: 'PPC',
+      letterCode: 'DEM',
       iconPath: 'assets/icon/ppc-icon-48.png',
       iconPathTransparent: 'assets/icon/ppc-icon-white-48.png',
       networkType: Network.mainnet,
@@ -21,12 +21,12 @@ class AvailableCoins {
       fixedFeePerKb: 0.01,
       explorerUrl: 'https://blockbook.peercoin.net',
       genesisHash:
-          '0000000032fe677166d54963b62a4677d8957e87c508eaa4fd7eb1c880cd27e3',
+          '000000bc0ddf15573115c44b81d8b10e9ebd868b5c967f408bda273656f30e28',
       txVersion: 3,
       electrumRequiredProtocol: 1.4,
       electrumServers: [
-        'wss://electrum.peercoinexplorer.net:50004',
-        'wss://allingas.peercoinexplorer.net:50004',
+        'wss://electrum1.deutsche-emark.com:50004',
+        'wss://electrum2.deutsche-emark.com:50004',
       ],
       marismaServers: [
         ('marisma.ppc.lol', 8443),
@@ -34,7 +34,7 @@ class AvailableCoins {
     ),
     'peercoinTestnet': Coin(
       name: 'peercoinTestnet',
-      displayName: 'Peercoin Testnet',
+      displayName: 'Deutsche eMark Testnet',
       uriCode: 'peercoin',
       letterCode: 'tPPC',
       iconPath: 'assets/icon/ppc-icon-48-grey.png',

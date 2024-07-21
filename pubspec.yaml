@@ -1,5 +1,5 @@
 name: peercoin
-description: A new Peercoin wallet.
+description: A new Deutsche eMark wallet.
 
 version: 1.3.0+143
 
@@ -78,7 +78,7 @@ flutter_icons:
   remove_alpha_ios: true
 
 flutter_launcher_name:
-  name: "Peercoin"
+  name: "Deutsche eMark"
 
 flutter_native_splash:
   color: "#FFFFFF"
