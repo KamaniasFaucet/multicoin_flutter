@@ -14,7 +14,7 @@ class AvailableCoins {
       iconPath: 'assets/icon/dem-icon-48.png',
       iconPathTransparent: 'assets/icon/dem-icon-white-48.png',
       networkType: Network.mainnet,
-      opreturnSize: 256,
+      opreturnSize: 40,
       fractions: 6,
       minimumTxValue: 10000,
       fixedFee: true,
