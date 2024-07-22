@@ -21,7 +21,7 @@ class TransactionDetails extends StatelessWidget {
     final WalletTransaction tx = args['tx'];
     final CoinWallet coinWallet = args['wallet'];
     final baseUrl =
-        '${AvailableCoins.getSpecificCoin(coinWallet.name).explorerUrl}/tx/';
+        '${AvailableCoins.getSpecificCoin(coinWallet.name).explorerUrl}/tx.dws?';
     final decimalProduct = AvailableCoins.getDecimalProduct(
       identifier: coinWallet.name,
     );
