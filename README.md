@@ -12,11 +12,11 @@ Wallet for Deutsche eMark and Deutsche eMark Testnet using Electrumx as backend.
 
 
 <p align="center">
-     <a href="https://f-droid.org/packages/com.coinerella.peercoin/">
+     <a href="https://f-droid.org/packages/com.coinerella.emark/">
 <img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
      alt="Get it on F-Droid"
      height="80"></a>
-<a href="https://play.google.com/store/apps/details?id=com.coinerella.peercoin"><img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
+<a href="https://play.google.com/store/apps/details?id=com.coinerella.emark"><img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
      alt="Get it on Google Play" height="80"></a>
 </p>
 <p align="center">
@@ -25,7 +25,7 @@ Wallet for Deutsche eMark and Deutsche eMark Testnet using Electrumx as backend.
 
 You can also sign up for our open beta testing here:
 
-* [Android](https://play.google.com/apps/testing/com.coinerella.peercoin)
+* [Android](https://play.google.com/apps/testing/com.coinerella.emark)
 * [iOS](https://testflight.apple.com/join/iilc4SvQ)
 
 ![Screenshot_small](https://user-images.githubusercontent.com/11148913/124509449-470f7c80-ddd2-11eb-9daf-56de7eb83594.png)

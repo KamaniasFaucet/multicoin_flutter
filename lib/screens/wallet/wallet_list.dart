@@ -132,7 +132,7 @@ class _WalletListScreenState extends State<WalletListScreen>
                                 ShareWrapper.share(
                                   context: context,
                                   message: Platform.isAndroid
-                                      ? 'https://play.google.com/store/apps/details?id=com.coinerella.peercoin'
+                                      ? 'https://play.google.com/store/apps/details?id=com.coinerella.emark'
                                       : 'https://apps.apple.com/app/peercoin-wallet/id1571755170',
                                 );
                               }
